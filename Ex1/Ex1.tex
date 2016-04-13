@@ -1,0 +1,79 @@
+% trypmhg.tex    Test Poor mans Hieroglyph fonts
+\documentclass{article}
+\usepackage{hieroglf}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{multicol}
+\geometry{left=3.0cm,right=2.0cm,top=1.5cm,bottom=2.0cm} 
+
+\newcommand{\UC}{A B C D E F G H I J K L M N O P Q R S T U V W X Y Z}
+\newcommand{\LC}{a b c d e f g h i j k l m n o p q r s t u v w x y z}
+\newcommand{\SY}{+ ? / |}
+\newcommand{\ST}{\Hms\ \Hibp\ \Hibw\ \Hibs\ \Hibl\ \Hsv\ 
+                 \Hman\ \Htongue\ \Hscribe\ \Hplural\ \Hdual}
+\newcommand{\SN}{\Hone\ \Hten\ \Hhundred\ \Hthousand\ \HXthousand
+                 \HCthousand\ \Hmillion}
+\newcommand{\Caesar}{\pmvglyph{\Hk:\Hy:\HS:\Hl:\HS}}
+
+\title{Exercise 1}
+\author{jyfmidi}
+\begin{document}\Large
+\maketitle
+\begin{spacing}{1.7}
+\section*{1. Learn by heart}
+\pmglyph{m} \translitpmhg{m} :in; by means of, with; from, out of\\
+\pmglyph{n} \translitpmhg{n} :to, for; to (direction)\\
+\pmglyph{r} \translitpmhg{r} :to, into, towards; inrespect of\\
+\pmglyph{p:n} \translitpmhg{pn} :this(m.), f.n.\\
+\pmglyph{t:n} \translitpmhg{tn} :this(f.), f.n.\\
+\pmglyph{ky} \translitpmhg{ky} :other,another(m.), p.n.\\
+\pmglyph{k:t} \translitpmhg{kt} :other,another(f.), p.n.\\
+\pmglyph{im} \translitpmhg{im} :there, therein, therewith, therefrom\\
+\pmglyph{bw} \translitpmhg{bw} :place(m.)-single\\
+\pmglyph{C:t} \translitpmhg{\HC t} :thing(f.)\\
+\pmglyph{p:t-H} \translitpmhg{Pt\HH} :Ptah, name of the god of Memphis\\
+\pmglyph{iw} \translitpmhg{iw} :is, are\\
+\pmglyph{r:n} \translitpmhg{rn} :name(m.)\\
+\pmglyph{D:d} \translitpmhg{\HD d} :say, speak\\
+\pmglyph{H-n:A} \translitpmhg{\HH n\HA} :together with\\
+
+\section*{2. Write in hieroglyphs the following combinations of letters}
+\begin{multicols}{4}
+\noindent\translitpmhg{hn}: \pmglyph{h:n}\\ 
+\translitpmhg{\HA r\HK}: \pmglyph{A:r-K}\\
+\translitpmhg{gr\HK}: \pmglyph{g:r-H}\\
+\translitpmhg{sf\HT}: \pmglyph{s-f:T}\\
+\translitpmhg{ptr}: \pmglyph{pt:r}\\
+\translitpmhg{my}: \pmglyph{my}\\
+\translitpmhg{snb}: \pmglyph{s-n:b}\\
+\translitpmhg{\HX rd}: \pmglyph{\HX-r:d}\\
+\translitpmhg{i\Ha \HC}: \pmglyph{iaC}\\
+\translitpmhg{wi\Ha}: \pmglyph{wia}\\
+\translitpmhg{\HD sf}: \pmglyph{D:S-f}\\
+\translitpmhg{\HK nd}: \pmglyph{K-n:d}\\
+\translitpmhg{ptpt}: \pmglyph{p:t-p:t}\\
+\translitpmhg{w\Hz b}: \pmglyph{w-\Hz:b}\\
+\translitpmhg{\HT sm}: \pmglyph{T:S-m}\\
+\end{multicols}
+
+\section*{3. Translate into Egyptians, adding transliterations}
+1. To another place. \translitpmhg{n.ky.bw}: \pmglyph{n:k-y-bw}\\
+2. To Ptah. \translitpmhg{n.Pt\HH}: \pmglyph{n:p:t-H}\\
+3. $^2$Another $^3$thing $^1$is there. \translitpmhg{iw.kt.\HC t.im}: \pmglyph{iw-k:t-C:t-im}\\
+4. In this name. \translitpmhg{m.rn.pn}: \pmglyph{m-r:n-p:n}\\
+5. $^2$Ptah $^1$is there in this place. \translitpmhg{iw.Pt\HH.im.m.bw.pn}: \pmglyph{iw-p:t-H-im-m-bw-p:n}\\
+6. Together with another name. \translitpmhg{\HH n\HA.ky.rn}: \pmglyph{H-n:A-ky-r:n}\\
+7. A $^2$thing $^1$is in this place. \translitpmhg{iw.\HC t. m.bw.pn}: \pmglyph{iw-C:t-m-bw-p:n}\\
+8. $^2$Ptah $^1$speak(s) in respect of this thing. \translitpmhg{\HD d.Pt\HH.r.\HC t.tn}: \pmglyph{D:d-p:t-H-r:Ct-t:n}\\
+
+
+
+
+
+
+
+
+
+
+\end{spacing}
+\end{document}
